@@ -1,0 +1,22 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper-externo{
+    width: 1600px;
+    margin: 0 auto;
+    height: 1000px;
+}
+
+.wrapper-interno{
+    margin: 0 auto;
+    width: 1400px;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table; 
+}
