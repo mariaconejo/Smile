@@ -1,0 +1,66 @@
+.banner-template{
+    padding-bottom: 95px;
+}
+
+.banner-template-title{
+    text-align: center;
+    position: relative;
+    
+}
+
+.subtitle{
+    font-size: 55px;
+    font-family:'Raleway', sans-serif;
+    font-weight: thin;
+    color:#000;
+    line-height: 30px;
+    letter-spacing: 2px;
+    
+}
+
+
+.banner-template-title h2{
+    font-size: 60px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 900;
+    color:#000;
+    line-height: 30px;
+    letter-spacing: 2px;
+    
+}
+
+.text{
+    font-size: 20px;
+    font-family:'Raleway', sans-serif;
+    font-weight: bold;
+    color:#000;
+    margin-bottom: 80px;
+    
+}
+
+.text::after{
+
+    content: "";
+    position: absolute;
+    left: 668px;
+    top: 242px;
+    height: 0.142%;
+    width: 4.5%;
+    font-weight: bold;
+    background-color: black;
+}
+                        
+.text-template{
+    margin-bottom: 45px;
+    
+}
+..text-template2{
+    margin-bottom: 100px;
+}
+
+.banner-template-text{
+    text-align: center;
+    font-size: 20px;
+    font-family:'Raleway', sans-serif;
+    color:#000;
+}
