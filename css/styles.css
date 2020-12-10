@@ -630,3 +630,136 @@ right: 60px; }
     text-transform: uppercase
 
 }
+
+
+.banner-slider{
+    background-image: url("../img/3.jpg");
+    background-size: cover; 
+}
+
+.slider-text{
+    font-family:'Raleway', sans-serif;
+    padding-top: 202px;
+    margin: 0 auto;
+    font-size: 60px;
+    color: white;
+    width: 815qpx;
+    text-align: center; 
+    font-weight: bold;
+}
+
+.slider-text2{
+    font-family:'Raleway', sans-serif;
+    padding-top: 60px;
+    padding-bottom: 166px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.slider-text2 a{
+    text-decoration: underline;
+}
+
+
+
+.banner-poster{
+    background-color: #f3f4f5;
+    height: 1200px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer ul {
+
+    padding:0;
+    margin: 0;
+
+
+}
+
+.footer li{
+    list-style: none; 
+}
+
+.footer-browse h2{
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.nav-browse{
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.footer-shop{
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.footer-contact{
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.numero{
+    padding-bottom: 50px
+}
+
+.form{
+
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+
+}
+
+
+.boton{
+    border: 3px solid #000000;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 14px 25px 14px 28px;
+    background: transparent
+}
+
+.email{
+
+}
+
+.nav-browse{
+    float: left;
+}
+
+.nav-shop{
+    float: left;
+}
+
+.nav-contact{
+    float: left;
+
+}
