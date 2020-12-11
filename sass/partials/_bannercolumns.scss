@@ -34,47 +34,50 @@
     border-bottom: 1px solid#eae9e7;
     border-left: 1px solid #eae9e7; 
     padding: 7.285% 14.571% 8.428% 7.285%;
-}
 
-.columns-content1 h3{
+
+    h3{
     font-size: 1.875rem;
     font-family:'Raleway', sans-serif;
     text-transform: uppercase;
-}
+    }
 
-.columns-content1 p{
+    p{
     font-size: 1.25rem;
     font-family:'Raleway', sans-serif;
-}
+    }
 
-.columns-content1 i{
+    i{
     font-size: 1.25rem;
     font-family:'Raleway', sans-serif;
+    padding-bottom: 8.7%;
+    }
 }
 
 .columns-content2{
     border-bottom: 1px solid#eae9e7;
     border-left: 1px solid #eae9e7; 
     padding: 7.428% 14.285% 6.285% 7.285%;
-}
 
-.columns-content2 h3{
+
+    h3{
     font-size: 1.875rem;
     font-family:'Raleway', sans-serif;
     text-transform: uppercase;
-}
+    }
 
-.columns-content2 p{
+    p{
     font-size: 1.25rem;
     font-family:'Raleway', sans-serif;
-}
+    }
 
-.columns-content2 i{
+    i{
     font-size: 1.25rem;
     font-family:'Raleway', sans-serif;
+    padding-bottom: 8.7%;
+    
+    }
 }
-
-
 .columns-content3{
     padding: 7.428% 10% 5.071% 7.714%;
     border-top: 1px solid #eae9e7;
@@ -82,22 +85,24 @@
     border-left: 1px solid #eae9e7;
     border-right: 1px solid#eae9e7; 
 
-}
 
-.columns-content3 h3{
+
+    h3{
     font-size: 1.875rem;
     font-family:'Raleway', sans-serif;
     text-transform: uppercase;
-}
+    }
 
-.columns-content3 p{
+    p{
     font-size: 1.25rem;
     font-family:'Raleway', sans-serif;
-}
+    }
 
-.columns-content3 i{
+    i{
     font-size: 1.25rem;
     font-family:'Raleway', sans-serif;
+    padding-bottom: 8.7%;
+    }
 }
 
 .columns-content4{
@@ -106,25 +111,26 @@
     border-right: 1px solid #eae9e7; 
     padding: 7.428% 8.285% 9.5% 7.714%;
     
-}
 
-.columns-content4 h3{
+
+    h3{
     font-size: 1.875rem;
     font-family:'Raleway', sans-serif;
     text-transform: uppercase;
-}
+    }
 
-.columns-content4 p{
+    p{
     font-size: 1.25rem;
     font-family:'Raleway', sans-serif;
-}
+    }
 
-.columns-content4 i{
+    i{
     font-size: 1.25rem;
     font-family:'Raleway', sans-serif;
+    padding-bottom: 8.7%;
     
+    }
 }
-
 
 .columns-button{
     text-align: center;
@@ -132,20 +138,15 @@
     margin-bottom: 10.214%;
 
 
-}
-
-.columns-button a{
+    a{
     text-decoration: none;
     color: black;
     padding: 9px 31px 9px 31px;
     border: 3px solid black;
-    font-weight: bold;
+    font-weight: 900;
     letter-spacing: 0.125rem;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase
 
-}
-
-.citas{
-    padding-bottom:  8px;
+    }
 }

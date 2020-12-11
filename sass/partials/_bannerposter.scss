@@ -1,6 +1,7 @@
+/*BANNER POSTER*/
 .banner-poster{
     background-color: #f3f4f5;
-    height: 1200px; 
+    height: 1260px; 
     max-width: 100%;
     width: 100%;
 }
@@ -52,95 +53,198 @@
 .poster-1{
     background-image: url("../img/4.jpg");
     background-size: cover;
-    width: 563px;
+    width: 85%;
     height: 754px;
     position: relative; 
+}
+
+.poster-1:hover div{
+    display: block;
+}
+
+.poster-1:hover{
+    box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.116);
 }
 
 .poster-2{
     background-image: url("../img/5.jpg");
     background-size: cover;
-    width: 740px;
+    width: 99%;
     height: 366px;
+}
+
+.poster-2:hover div{
+    display: block;
+}
+
+.poster-2:hover{
+    box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.116);
 }
 
 .poster-3{
     background-image: url("../img/6.jpg");
     background-size: cover;
-    width: 325px;
+    width: 43.978%;
     height: 337px;
     float: left;
     margin-right: 82px;
     margin-top: 55px; 
 }
 
+.poster-3:hover div{
+    display: block;
+}
+
+.poster-3:hover{
+    box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.116);
+}
+
 .poster-4{
     background-image: url("../img/8.jpg");
     background-size: cover;
-    width: 329px;
+    width: 44.519%;
     height: 338px;
     float: left;
     margin-top: 55px;
 }
 
+.poster-4:hover div{
+    display: block;
+}
+
+.poster-4:hover{
+    box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.116);
+}
+
 .poster-1-text{
-    font-size: 80px;
+    font-size: 5rem;
     text-align: center;
     color: white;
-    padding-top: 157px;
+    padding-top: 22.428%;
     margin-top: 0;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-    line-height: 100px;
+    line-height: 6.25rem;
 }
 
 .poster-hover1{
-    font-size: 20px;
+    text-decoration: none;
+    font-size: 1.25rem;
     color: white;
     position: absolute;
-    bottom: 3px;
-    left: 38px;
+    bottom: 2.857%;
+    left: 5.428%;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-    letter-spacing: 7px;
+    letter-spacing: 0.437rem;
     font-weight: bold;
+    
+}
+
+.poster-hover2{
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: white;
+    position: absolute;
+    bottom: 610px;
+    left: 800px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.437rem;
+    font-weight: bold;
+    
+}
+
+.poster-hover3{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    position: absolute;
+    bottom: 205px;
+    left: 780px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.437rem;
+    font-weight: bold;
+    
+}
+
+.poster-hover4{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    position: absolute;
+    bottom: 205px;
+    left: 1180px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.437rem;
+    font-weight: bold;
+    
 }
 
 .share{
 
     position: absolute;
-    bottom: 19px;
-    right: 38px;
+    bottom: 2.714%;
+    right: 5.428%;
 
+}
+
+.share2{
+
+    position: absolute;
+    bottom: 600px;
+    right:120px;
+
+}
+
+.share3{
+
+    position: absolute;
+    bottom: 200px;
+    right:530px;
+
+}
+
+.share4{
+
+    position: absolute;
+    bottom: 200px;
+    right: 100px;
+
+}
+.hover{
+    display: none;
 }
 
 .poster-2-text{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    font-size: 36px;
+    font-size: 2.25rem;
     margin: 0;
-    padding-left: 77px;
-    padding-top: 89px; 
+    padding-left: 10.419%;
+    padding-top: 12.043%; 
     font-weight: bold;
 }
 
 .poster-2-text2{
-    font-size: 20px;
-    padding-left: 77px;
+    font-size: 1.25rem;
+    padding-left: 10.419%;
 
 }
 
 .poster-3-text{
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 1.875rem;
     text-align: center;
     font-family: 'Squada One', cursive;
 }
 
 .poster-4-text{
-    padding-top: 130px;
-    font-size: 37px;
+    padding-top: 17.591%;
+    font-size: 2.31rem;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -153,7 +257,8 @@ span{
 
 .poster-button{
     text-align: center;
-    margin-top: 60px;
+    margin-top: 4.285%;
+    
 }
 
 .poster-button a{

@@ -1,6 +1,10 @@
+/*BANNER-SLIDER*/
+
 .banner-slider{
     background-image: url("../img/3.jpg");
     background-size: cover; 
+    width: 100%;
+    max-width: 100%;
 }
 
 .slider-text{
@@ -22,8 +26,9 @@
     color: white;
     text-align: center;
     margin-bottom: 0;
-}
 
-.slider-text2 a{
+
+    a{
     text-decoration: underline;
+    }
 }
