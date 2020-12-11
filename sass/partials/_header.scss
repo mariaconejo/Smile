@@ -9,10 +9,12 @@
 .header-fondo {
     background-image: url("../img/1.jpg");
     background-size: cover; 
-}
 
-.header-fondo img{
+
+    img {
     display: block;
+    }
+
 }
 
 .header-logo {
@@ -44,16 +46,18 @@
     margin-right: 7.142%;
     margin-top: 4.285%; 
     padding: 8px 0px 8px 0px;
-}
 
-.header-menu a {
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 0.937rem;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 0.187rem; 
+
+    a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 0.937rem;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 0.187rem; 
+    }
+
 }
 
 .headerpoints{
@@ -62,14 +66,16 @@
     padding-top: 850px;
     margin: 0 auto;
     margin-bottom: 45px;
-}
 
-.headerpoints img{
+
+    img {
 
     max-width: 100%;
     width: 100%;
     display: block;
     margin: 0 auto;
+
+    }
 
 }
 

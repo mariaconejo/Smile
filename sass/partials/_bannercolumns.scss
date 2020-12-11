@@ -1,5 +1,7 @@
 .banner-columns{
     position: relative;
+    width: 100%;
+    max-width: 100%;
 }
 .title-columns{
     font-size: 3.75rem;
@@ -142,4 +144,8 @@
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase
 
+}
+
+.citas{
+    padding-bottom:  8px;
 }
