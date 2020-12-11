@@ -57,7 +57,7 @@
 .columns-content2{
     border-bottom: 1px solid $gray-light;
     border-left: 1px solid $gray-light; 
-    padding: 7.428% 14.285% 6.285% 7.285%;
+    padding: 7.428% 14.285% 6.5% 7.285%;
 
 
     h3{
@@ -79,7 +79,7 @@
     }
 }
 .columns-content3{
-    padding: 7.428% 10% 5.071% 7.714%;
+    padding: 7.428% 10% 1.5% 7.714%;
     border-top: 1px solid $gray-light;
     border-bottom: 1px solid$gray-light;
     border-left: 1px solid $gray-light;
@@ -109,7 +109,7 @@
     border-left: 1px solid $gray-light;
     border-bottom: 1px solid $gray-light;
     border-right: 1px solid $gray-light; 
-    padding: 7.428% 8.285% 9.5% 7.714%;
+    padding: 7.428% 8.285% 9.9% 7.714%;
     
 
 
@@ -146,7 +146,19 @@
     font-weight: 900;
     letter-spacing: 0.125rem;
     font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase
+    text-transform: uppercase;
+    background-color: $white;
+    }
+    a:hover{
+        text-decoration: none;
+        color: $white;
+        padding: 9px 31px 9px 31px;
+        border: 3px solid $black;
+        font-weight: 900;
+        letter-spacing: 0.125rem;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        background-color: $black;
 
     }
 }

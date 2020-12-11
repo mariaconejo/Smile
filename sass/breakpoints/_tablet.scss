@@ -1,4 +1,4 @@
-@media(max-width:767px){
+@media(max-width:1023px){
     .header-title {
         bottom: 23%;
         right:0%;
@@ -15,15 +15,8 @@
 
     .text::after{
 
-        content: "";
-        position: absolute;
-        left: 668px;
-        top: 220px;
-        height: 0.142%;
-        width: 4.5%;
-        font-weight: bold;
-        background-color: black;
-        
+        left: 500px;
+
     }
     .banner-couple-cita{
         float: none;
@@ -32,17 +25,20 @@
     }
 
     .cita{
+        margin: 0 auto;
         text-align: center;
-        padding-top: 90px;
+        padding-top: 100px;
     }
     
     .autor{
-        padding-left: 270px;
+        margin:0 auto;
         text-align: center;
+        padding-top:30px;
     }
     
     .points{
-        margin-left: 410px;
+        margin-left: 460px;
+        padding-top: 50px;
     }
 
     .banner-couple-img  {
@@ -52,6 +48,14 @@
 
     }
 
+    .columns-content4{
+        padding: 7.428% 8.285% 11% 7.714%;
+        
+    }
+
+    .columns-content3{
+        padding: 7.428% 10% 3.8% 7.714%;
+    }
     .poster-title::after{
 
         left: 5px;
@@ -92,28 +96,37 @@
     .nav-browse{
     
         
-        margin-right: 5%;
+        margin-left:14%;
         
     }
     
     .nav-shop{
         
-        margin-right: 5%;
+        margin-right: 14%;
 
     }
     
     .nav-contact{
         
-        margin-right: 5%;
+        margin-right: 14%;
         
     }
     
     .form{
-        
-        padding-top: 8.857%;
-        padding-bottom: 7.142%;
-        margin-right: 0;
-        
+        padding-left: 30%;
+        text-align: center;  
+    }
+    
+    .email{
+
+        width: 200px;
+        background-color: #f3f4f5;
+        padding-top: 4.137%;
+        padding-bottom: 4.137%;
+        padding-left: 2px;
+        border: none;
+        color: #c9c7c2;
+    
     }
     
 

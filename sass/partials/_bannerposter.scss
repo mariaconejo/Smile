@@ -26,7 +26,7 @@
 .poster-title::after{
     content: "";
     position: absolute;
-    left: 100px;
+    left: 0px;
     top: 195px;
     height: 3px;
     width: 5.5%;
@@ -147,7 +147,7 @@
     color: white;
     position: absolute;
     bottom: 610px;
-    left: 800px;
+    left: 700px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.437rem;
@@ -161,7 +161,7 @@
     color: white;
     position: absolute;
     bottom: 205px;
-    left: 780px;
+    left: 660px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.437rem;
@@ -175,7 +175,7 @@
     color: white;
     position: absolute;
     bottom: 205px;
-    left: 1180px;
+    left: 1070px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.437rem;
@@ -195,7 +195,7 @@
 
     position: absolute;
     bottom: 600px;
-    right:120px;
+    right:50px;
 
 }
 
@@ -203,7 +203,7 @@
 
     position: absolute;
     bottom: 200px;
-    right:530px;
+    right:400px;
 
 }
 
@@ -211,7 +211,7 @@
 
     position: absolute;
     bottom: 200px;
-    right: 100px;
+    right: 10px;
 
 }
 .hover{
@@ -270,6 +270,20 @@ span{
     letter-spacing: 0.125rem;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
+    background-color: $white;
+    
+}
+
+.poster-button a:hover{
+    text-decoration: none;
+    color:$white;
+    padding: 9px 31px 9px 31px;
+    border: 3px solid black;
+    font-weight: bold;
+    letter-spacing: 0.125rem;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    background-color: $black;
     
 }
 
