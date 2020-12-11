@@ -1,3 +1,5 @@
+/*banner couple*/
+
 .banner-couple{
     padding-bottom: 6.785%;
     max-width: 100%;
@@ -9,7 +11,7 @@
     background-color: #ffeae2;
     float: left;
     width: 50%;
-    height: 643px;
+    height: 650px;
     margin-bottom: 1.428%;
 }
 
@@ -33,7 +35,10 @@
 }
 
 .banner-couple-img {
+    background-image: url("../img/2.jpg");
+    background-size: cover;
     float: left;
     width: 50%;
     height: 651px;
+    margin:0;
 }
