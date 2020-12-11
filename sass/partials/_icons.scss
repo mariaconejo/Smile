@@ -1,5 +1,5 @@
 .icon-color{
-    background-color: #f3f4f5;
+    background-color: $gray-input;
     width: 100%;
     max-width: 100%;
 }
@@ -9,7 +9,7 @@
     padding-top: 2.142%;
     padding-bottom:  2.5%; 
     font-size: 1rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $fontmonserrat;
 }
 
 .social{

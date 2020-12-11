@@ -14,7 +14,7 @@
 
 .subtitle{
     font-size: 3.437rem;
-    font-family:'Raleway', sans-serif;
+    font-family:$fontralaway;
     font-weight: 100;
     color:$black;
     line-height: 1.875%;
@@ -25,7 +25,7 @@
 
 .banner-template-title h2{
     font-size: 3.75rem;
-    font-family:'Raleway', sans-serif;
+    font-family:$fontralaway;
     font-weight: 900;
     color:$black;
     line-height: 1.875rem;
@@ -35,7 +35,7 @@
 
 .text{
     font-size: 1.25rem;
-    font-family:'Raleway', sans-serif;
+    font-family:$fontralaway;
     font-weight: bold;
     color:$black;
     margin-bottom: 5.714%;
@@ -63,6 +63,6 @@
 .banner-template-text{
     text-align: center;
     font-size: 1.25rem;
-    font-family:'Raleway', sans-serif;
+    font-family:$fontralaway;
     color:$black;
 }

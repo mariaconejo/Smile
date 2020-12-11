@@ -8,21 +8,21 @@
 }
 
 .slider-text{
-    font-family:'Raleway', sans-serif;
+    font-family:$fontralaway;
     padding-top: 14.428%;
     margin: 0 auto;
     font-size: 3.75rem;
-    color: white;
+    color: $white;
     text-align: center; 
     font-weight: bold;
 }
 
 .slider-text2{
-    font-family:'Raleway', sans-serif;
+    font-family:$fontralaway;
     padding-top: 3.75rem;
     padding-bottom: 11.857%;
     font-size: 1rem;
-    color: white;
+    color: $white;
     text-align: center;
     margin-bottom: 0;
 

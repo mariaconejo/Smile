@@ -9,14 +9,14 @@
 
 
 .banner-couple-cita{
-    background-color: #ffeae2;
+    background-color: $pink;
     float: left;
     width: 50%;
     height: 651px;
 }
 
 .cita{
-    font-family:'Raleway', sans-serif;
+    font-family:$fontralaway;
     font-size: 2rem;
     font-weight: bold;
     width: 600px;
@@ -24,7 +24,7 @@
 }
 
 .autor{
-    font-family:'Raleway', sans-serif;
+    font-family:$fontralaway;
     font-weight: 100;
     font-size: 2.25rem;
     margin-left: 100px;
