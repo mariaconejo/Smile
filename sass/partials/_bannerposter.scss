@@ -1,0 +1,170 @@
+.banner-poster{
+    background-color: #f3f4f5;
+    height: 1200px; 
+    max-width: 100%;
+    width: 100%;
+}
+
+
+.banner-poster{
+    background-color: #f3f4f5;
+    padding: 0;
+    position: relative;
+}
+
+.poster-title{
+    margin: 0;
+    color: #000;
+    font-family:'Raleway', sans-serif;
+    font-size: 3.75rem;
+    padding-top:7.357%;
+    padding-bottom: 10.214%;
+
+}
+
+.poster-title::after{
+    content: "";
+    position: absolute;
+    left: 100px;
+    top: 195px;
+    height: 3px;
+    width: 5.5%;
+    background-color: black;
+
+}
+
+
+
+.banner-colum1{
+    width: 46.428%;
+    float: left;
+    
+    
+}
+
+.banner-colum2{
+    width: 52.857%;
+    float: right;
+    
+
+}
+
+.poster-1{
+    background-image: url("../img/4.jpg");
+    background-size: cover;
+    width: 563px;
+    height: 754px;
+    position: relative; 
+}
+
+.poster-2{
+    background-image: url("../img/5.jpg");
+    background-size: cover;
+    width: 740px;
+    height: 366px;
+}
+
+.poster-3{
+    background-image: url("../img/6.jpg");
+    background-size: cover;
+    width: 325px;
+    height: 337px;
+    float: left;
+    margin-right: 82px;
+    margin-top: 55px; 
+}
+
+.poster-4{
+    background-image: url("../img/8.jpg");
+    background-size: cover;
+    width: 329px;
+    height: 338px;
+    float: left;
+    margin-top: 55px;
+}
+
+.poster-1-text{
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    padding-top: 157px;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    line-height: 100px;
+}
+
+.poster-hover1{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    bottom: 3px;
+    left: 38px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 7px;
+    font-weight: bold;
+}
+
+.share{
+
+    position: absolute;
+    bottom: 19px;
+    right: 38px;
+
+}
+
+.poster-2-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 36px;
+    margin: 0;
+    padding-left: 77px;
+    padding-top: 89px; 
+    font-weight: bold;
+}
+
+.poster-2-text2{
+    font-size: 20px;
+    padding-left: 77px;
+
+}
+
+.poster-3-text{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Squada One', cursive;
+}
+
+.poster-4-text{
+    padding-top: 130px;
+    font-size: 37px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+span{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.poster-button{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.poster-button a{
+    text-decoration: none;
+    color: black;
+    padding: 9px 31px 9px 31px;
+    border: 3px solid black;
+    font-weight: bold;
+    letter-spacing: 0.125rem;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    
+}
+

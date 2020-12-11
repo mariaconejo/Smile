@@ -1,20 +1,24 @@
-body{
+html{
+    font-size: 16px;
+}
+
+body {
     padding: 0;
-    margin: 0;
+    margin: 0; 
 }
 
-.wrapper-externo{
-    margin: 0 auto;
+.wrapper-externo {
     width: 1600px;
-    max-width: 100%;
-    height: 1000px;
-}
-
-.wrapper-interno{
     margin: 0 auto;
-    width: 1400px;
+    max-width: 100%;
+    height: 1000px; 
 }
 
+.wrapper-interno {
+    max-width: 100%;
+    margin: 0 auto;
+    width: 1400px; 
+}
 
 .clearfix::after {
     content: "";

@@ -1,0 +1,27 @@
+.icon-color{
+    background-color: #f3f4f5;
+}
+
+.copyright{
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 35px; 
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.social{
+    float: right;
+    padding-top: 30px;
+    padding-top: 32px;
+    padding-bottom: 35px;
+}
+
+
+.social a {
+    float: left;
+}
+
+.social a + a{
+    padding-left: 33px;
+}

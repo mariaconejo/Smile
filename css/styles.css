@@ -6,83 +6,83 @@
 * 2. Prevent adjustments of font size after orientation changes in iOS.
 */
 html {
-line-height: 1.15;
-/* 1 */
--webkit-text-size-adjust: 100%;
-/* 2 */ }
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
 
 /* Sections
-========================================================================== */
+    ========================================================================== */
 /**
 * Remove the margin in all browsers.
 */
 body {
-margin: 0; }
+  margin: 0; }
 
 /**
 * Render the `main` element consistently in IE.
 */
 main {
-display: block; }
+  display: block; }
 
 /**
 * Correct the font size and margin on `h1` elements within `section` and
 * `article` contexts in Chrome, Firefox, and Safari.
 */
 h1 {
-font-size: 2em;
-margin: 0.67em 0; }
+  font-size: 2em;
+  margin: 0.67em 0; }
 
 /* Grouping content
-========================================================================== */
+    ========================================================================== */
 /**
 * 1. Add the correct box sizing in Firefox.
 * 2. Show the overflow in Edge and IE.
 */
 hr {
-box-sizing: content-box;
-/* 1 */
-height: 0;
-/* 1 */
-overflow: visible;
-/* 2 */ }
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
 
 /**
 * 1. Correct the inheritance and scaling of font size in all browsers.
 * 2. Correct the odd `em` font sizing in all browsers.
 */
 pre {
-font-family: monospace, monospace;
-/* 1 */
-font-size: 1em;
-/* 2 */ }
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
 
 /* Text-level semantics
-========================================================================== */
+    ========================================================================== */
 /**
 * Remove the gray background on active links in IE 10.
 */
 a {
-background-color: transparent; }
+  background-color: transparent; }
 
 /**
 * 1. Remove the bottom border in Chrome 57-
 * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
 */
 abbr[title] {
-border-bottom: none;
-/* 1 */
-text-decoration: underline;
-/* 2 */
-text-decoration: underline dotted;
-/* 2 */ }
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
 
 /**
 * Add the correct font weight in Chrome, Edge, and Safari.
 */
 b,
 strong {
-font-weight: bolder; }
+  font-weight: bolder; }
 
 /**
 * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -91,16 +91,16 @@ font-weight: bolder; }
 code,
 kbd,
 samp {
-font-family: monospace, monospace;
-/* 1 */
-font-size: 1em;
-/* 2 */ }
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
 
 /**
 * Add the correct font size in all browsers.
 */
 small {
-font-size: 80%; }
+  font-size: 80%; }
 
 /**
 * Prevent `sub` and `sup` elements from affecting the line height in
@@ -108,27 +108,27 @@ font-size: 80%; }
 */
 sub,
 sup {
-font-size: 75%;
-line-height: 0;
-position: relative;
-vertical-align: baseline; }
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
 
 sub {
-bottom: -0.25em; }
+  bottom: -0.25em; }
 
 sup {
-top: -0.5em; }
+  top: -0.5em; }
 
 /* Embedded content
-========================================================================== */
+    ========================================================================== */
 /**
 * Remove the border on images inside links in IE 10.
 */
 img {
-border-style: none; }
+  border-style: none; }
 
 /* Forms
-========================================================================== */
+    ========================================================================== */
 /**
 * 1. Change the font styles in all browsers.
 * 2. Remove the margin in Firefox and Safari.
@@ -138,14 +138,14 @@ input,
 optgroup,
 select,
 textarea {
-font-family: inherit;
-/* 1 */
-font-size: 100%;
-/* 1 */
-line-height: 1.15;
-/* 1 */
-margin: 0;
-/* 2 */ }
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
 
 /**
 * Show the overflow in IE.
@@ -153,8 +153,8 @@ margin: 0;
 */
 button,
 input {
-/* 1 */
-overflow: visible; }
+  /* 1 */
+  overflow: visible; }
 
 /**
 * Remove the inheritance of text transform in Edge, Firefox, and IE.
@@ -162,8 +162,8 @@ overflow: visible; }
 */
 button,
 select {
-/* 1 */
-text-transform: none; }
+  /* 1 */
+  text-transform: none; }
 
 /**
 * Correct the inability to style clickable types in iOS and Safari.
@@ -172,7 +172,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
--webkit-appearance: button; }
+  -webkit-appearance: button; }
 
 /**
 * Remove the inner border and padding in Firefox.
@@ -181,8 +181,8 @@ button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
-border-style: none;
-padding: 0; }
+  border-style: none;
+  padding: 0; }
 
 /**
 * Restore the focus styles unset by the previous rule.
@@ -191,13 +191,13 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-outline: 1px dotted ButtonText; }
+  outline: 1px dotted ButtonText; }
 
 /**
 * Correct the padding in Firefox.
 */
 fieldset {
-padding: 0.35em 0.75em 0.625em; }
+  padding: 0.35em 0.75em 0.625em; }
 
 /**
 * 1. Correct the text wrapping in Edge and IE.
@@ -206,30 +206,30 @@ padding: 0.35em 0.75em 0.625em; }
 *    `fieldset` elements in all browsers.
 */
 legend {
-box-sizing: border-box;
-/* 1 */
-color: inherit;
-/* 2 */
-display: table;
-/* 1 */
-max-width: 100%;
-/* 1 */
-padding: 0;
-/* 3 */
-white-space: normal;
-/* 1 */ }
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
 
 /**
 * Add the correct vertical alignment in Chrome, Firefox, and Opera.
 */
 progress {
-vertical-align: baseline; }
+  vertical-align: baseline; }
 
 /**
 * Remove the default vertical scrollbar in IE 10+.
 */
 textarea {
-overflow: auto; }
+  overflow: auto; }
 
 /**
 * 1. Add the correct box sizing in IE 10.
@@ -237,119 +237,117 @@ overflow: auto; }
 */
 [type="checkbox"],
 [type="radio"] {
-box-sizing: border-box;
-/* 1 */
-padding: 0;
-/* 2 */ }
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
 
 /**
 * Correct the cursor style of increment and decrement buttons in Chrome.
 */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
-height: auto; }
+  height: auto; }
 
 /**
 * 1. Correct the odd appearance in Chrome and Safari.
 * 2. Correct the outline style in Safari.
 */
 [type="search"] {
--webkit-appearance: textfield;
-/* 1 */
-outline-offset: -2px;
-/* 2 */ }
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
 
 /**
 * Remove the inner padding in Chrome and Safari on macOS.
 */
 [type="search"]::-webkit-search-decoration {
--webkit-appearance: none; }
+  -webkit-appearance: none; }
 
 /**
 * 1. Correct the inability to style clickable types in iOS and Safari.
 * 2. Change font properties to `inherit` in Safari.
 */
 ::-webkit-file-upload-button {
--webkit-appearance: button;
-/* 1 */
-font: inherit;
-/* 2 */ }
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
 
 /* Interactive
-========================================================================== */
+    ========================================================================== */
 /*
 * Add the correct display in Edge, IE 10+, and Firefox.
 */
 details {
-display: block; }
+  display: block; }
 
 /*
 * Add the correct display in all browsers.
 */
 summary {
-display: list-item; }
+  display: list-item; }
 
 /* Misc
-========================================================================== */
+    ========================================================================== */
 /**
 * Add the correct display in IE 10+.
 */
 template {
-display: none; }
+  display: none; }
 
 /**
 * Add the correct display in IE 10.
 */
 [hidden] {
-display: none; }
+  display: none; }
 
-html{
-    font-size: 16px;
-}
+html {
+  font-size: 16px; }
 
 body {
-    padding: 0;
-    margin: 0; 
-    }
+  padding: 0;
+  margin: 0; }
 
 .wrapper-externo {
-    width: 1600px;
-    margin: 0 auto;
-    height: 1000px; }
+  width: 1600px;
+  margin: 0 auto;
+  max-width: 100%;
+  height: 1000px; }
 
 .wrapper-interno {
-    max-width: 100%;
-    margin: 0 auto;
-    width: 1400px; }
+  max-width: 100%;
+  margin: 0 auto;
+  width: 1400px; }
 
 .clearfix::after {
-    content: "";
-    clear: both;
-    display: table; }
+  content: "";
+  clear: both;
+  display: table; }
 
 /* HEADER */
 .header {
-    position: relative;
-    max-width: 100%;
-    width: 100%;
-    height: 1000px; }
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  height: 1000px; }
 
 .header-fondo {
-    background-image: url("../img/1.jpg");
-    background-size: cover; }
+  background-image: url("../img/1.jpg");
+  background-size: cover; }
 
-.header-fondo img{
-    display: block;
-}
+.header-fondo img {
+  display: block; }
 
 .header-logo {
-    float: left;
-    padding: 29px 20px 29px 20px;
-    background-color: #000000;
-    margin-left: 7.145%;
-    margin-top: 3.57%; }
-
-.header-logo a {
+  width: 200px;
+  float: left;
+  background-color: #000000;
+  margin-left: 7.145%;
+  margin-top: 3.57%;
+  padding: 29px 2px 29px 20px; }
+  .header-logo a {
     display: block;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -357,620 +355,530 @@ body {
     color: white;
     text-decoration: none;
     font-size: 1.875rem;
-    letter-spacing: 0.625rem;
-}
+    letter-spacing: 0.625rem; }
 
 .header-menu {
-    float: right;
-    color: white;
-    border-top: 3px solid #ffffff;
-    border-bottom: 3px solid #ffffff;
-    margin-right: 7.142%;
-    margin-top: 4.285%; 
-}
+  float: right;
+  color: white;
+  border-top: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
+  margin-right: 7.142%;
+  margin-top: 4.285%;
+  padding: 8px 0px 8px 0px; }
 
 .header-menu a {
-    padding: 8px 0px 8px 0px;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 0.937rem;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 0.187rem; 
-}
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.937rem;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.187rem; }
+
+.headerpoints {
+  max-width: 185px;
+  width: 100%;
+  padding-top: 850px;
+  margin: 0 auto;
+  margin-bottom: 45px; }
+
+.headerpoints img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 0 auto; }
 
 .header-title {
-font-family: 'Raleway', sans-serif;
-font-size: 12.5rem;
-font-weight: lighter;
-color: #ffffff;
-position: absolute;
-bottom: 300px;
-right: 20px;
-letter-spacing: 3.25rem;
-text-transform: uppercase; }
+  font-family: 'Raleway', sans-serif;
+  font-size: 12.5rem;
+  font-weight: 100;
+  color: #ffffff;
+  position: absolute;
+  bottom: 23%;
+  right: 0%;
+  left: 42%;
+  letter-spacing: 3.25rem;
+  text-transform: uppercase; }
 
 .header-paragraph {
-color: white;
-font-size: 3.437rem;
-letter-spacing: 0.937rem;
-margin: 0;
-font-family: 'Raleway', sans-serif;
-position: absolute;
-bottom: 450px;
-right: 60px; }
+  color: white;
+  font-size: 3.3rem;
+  letter-spacing: 0.91rem;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  position: absolute;
+  bottom: 37%;
+  right: 0%;
+  left: 43%; }
 
+.banner-template {
+  padding-bottom: 2.142%;
+  max-width: 100%;
+  width: 100%; }
 
-.banner-template{
-    padding-bottom: 2.142%;
-    max-width: 100%;
-    width: 100%;
-}
+.banner-template-title {
+  text-align: center;
+  position: relative; }
 
-.banner-template-title{
-    text-align: center;
-    position: relative;
-    
-}
+.subtitle {
+  font-size: 3.437rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  color: #000;
+  line-height: 1.875%;
+  letter-spacing: 0.125rem; }
 
-.subtitle{
-    font-size: 3.437rem;
-    font-family:'Raleway', sans-serif;
-    font-weight: thin;
-    color:#000;
-    line-height: 1.875%;
-    letter-spacing: 0.125rem;
-    
-}
+.banner-template-title h2 {
+  font-size: 3.75rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: #000;
+  line-height: 1.875rem;
+  letter-spacing: 0.125rem; }
 
+.text {
+  font-size: 1.25rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 5.714%; }
 
-.banner-template-title h2{
-    font-size: 3.75rem;
-    font-family:'Raleway', sans-serif;
-    font-weight: 900;
-    color:#000;
-    line-height: 1.875rem;
-    letter-spacing: 0.125rem;
-    
-}
+.text::after {
+  content: "";
+  position: absolute;
+  left: 668px;
+  top: 220px;
+  height: 0.142%;
+  width: 4.5%;
+  font-weight: bold;
+  background-color: black; }
 
-.text{
-    font-size: 1.25rem;
-    font-family:'Raleway', sans-serif;
-    font-weight: bold;
-    color:#000;
-    margin-bottom: 5.714%;
-    
-}
+.text-template {
+  margin-bottom: 3.214%; }
 
-.text::after{
+.banner-template-text {
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: 'Raleway', sans-serif;
+  color: #000; }
 
-    content: "";
-    position: absolute;
-    left: 668px;
-    top: 220px;
-    height: 0.142%;
-    width: 4.5%;
-    font-weight: bold;
-    background-color: black;
-    
-}
-                        
-.text-template{
-    margin-bottom: 3.214%;
-    
-}
+.banner-couple {
+  padding-bottom: 6.785%;
+  text-align: center; }
 
-.banner-template-text{
-    text-align: center;
-    font-size: 1.25rem;
-    font-family:'Raleway', sans-serif;
-    color:#000;
-}
+.banner-couple-cita {
+  background-color: #ffeae2;
+  float: left;
+  width: 50%;
+  height: 643px;
+  margin-bottom: 1.428%; }
 
-.banner-couple{
-    padding-bottom: 6.785%;
-    text-align: center;
-    
-}
+.cita {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.25rem;
+  font-weight: bold;
+  width: 69.625%;
+  margin: 17.75% 15.125% 7.625% 12.5%; }
 
-.banner-couple-cita{
-    background-color: #ffeae2;
-    float: left;
-    width: 50%;
-    height: 651px;
-    margin-bottom: 1.428%;
-}
+.autor {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 2.25rem;
+  margin: 0% 52.5% 6.5% 12.5%; }
 
-.cita{
-    font-family:'Raleway', sans-serif;
-    font-size: 2.25rem;
-    font-weight: bold;
-    width: 69.625%;
-    margin: 17.75% 15.125% 7.625% 12.5%;
-}
-
-.autor{
-    font-family:'Raleway', sans-serif;
-    font-weight: 100;
-    font-size: 2.25rem;
-    margin: 0% 52.5% 6.5% 12.5%;
-}
-
-.points{
-    margin-left: 12%;
-}
+.points {
+  margin-left: 12%; }
 
 .banner-couple-img {
-    float: left;
-    width: 50%;
-    height: 651px;
-}
-.banner-columns{
-    position: relative;
-}
-.title-columns{
-    font-size: 3.75rem;
-    font-family:'Raleway', sans-serif;
-    font-weight: bold;
-}
-
-.title-columns::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 72px;
-    height: 2px;
-    width: 4.5rem;
-    background-color: black
-}
-.colums1{
-    width: 50%;
-    float: left;
-    margin-bottom: 5.714%;
-}
-
-.colums2{
-    width: 50%;
-    float: left;
-    margin-bottom: 5.714%;
-}
-.columns-content1{
-    border-top: 1px solid#eae9e7;
-    border-bottom: 1px solid#eae9e7;
-    border-left: 1px solid #eae9e7; 
-    padding: 7.285% 14.571% 8.428% 7.285%;
-}
-
-.columns-content1 h3{
-    font-size: 1.875rem;
-    font-family:'Raleway', sans-serif;
-    text-transform: uppercase;
-}
-
-.columns-content1 p{
-    font-size: 1.25rem;
-    font-family:'Raleway', sans-serif;
-}
-
-.columns-content1 i{
-    font-size: 1.25rem;
-    font-family:'Raleway', sans-serif;
-}
-
-.columns-content2{
-    border-bottom: 1px solid#eae9e7;
-    border-left: 1px solid #eae9e7; 
-    padding: 7.428% 14.285% 6.285% 7.285%;
-}
-
-.columns-content2 h3{
-    font-size: 1.875rem;
-    font-family:'Raleway', sans-serif;
-    text-transform: uppercase;
-}
-
-.columns-content2 p{
-    font-size: 1.25rem;
-    font-family:'Raleway', sans-serif;
-}
-
-.columns-content2 i{
-    font-size: 1.25rem;
-    font-family:'Raleway', sans-serif;
-}
-
-
-.columns-content3{
-    padding: 7.428% 10% 5.071% 7.714%;
-    border-top: 1px solid #eae9e7;
-    border-bottom: 1px solid#eae9e7;
-    border-left: 1px solid #eae9e7;
-    border-right: 1px solid#eae9e7; 
-
-}
-
-.columns-content3 h3{
-    font-size: 1.875rem;
-    font-family:'Raleway', sans-serif;
-    text-transform: uppercase;
-}
-
-.columns-content3 p{
-    font-size: 1.25rem;
-    font-family:'Raleway', sans-serif;
-}
-
-.columns-content3 i{
-    font-size: 1.25rem;
-    font-family:'Raleway', sans-serif;
-}
-
-.columns-content4{
-    border-left: 1px solid #eae9e7;
-    border-bottom: 1px solid #eae9e7;
-    border-right: 1px solid #eae9e7; 
-    padding: 7.428% 8.285% 9.5% 7.714%;
-    
-}
-
-.columns-content4 h3{
-    font-size: 1.875rem;
-    font-family:'Raleway', sans-serif;
-    text-transform: uppercase;
-}
-
-.columns-content4 p{
-    font-size: 1.25rem;
-    font-family:'Raleway', sans-serif;
-}
-
-.columns-content4 i{
-    font-size: 1.25rem;
-    font-family:'Raleway', sans-serif;
-    
-}
-
-
-.columns-button{
-    text-align: center;
-    margin-top: 4.285%;
-    margin-bottom: 10.214%;
-
-
-}
-
-.columns-button a{
-    text-decoration: none;
-    color: black;
-    padding: 9px 31px 9px 31px;
-    border: 3px solid black;
-    font-weight: bold;
-    letter-spacing: 0.125rem;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase
-
-}
-
-
-.banner-slider{
-    background-image: url("../img/3.jpg");
-    background-size: cover; 
-}
-
-.slider-text{
-    font-family:'Raleway', sans-serif;
-    padding-top: 14.428%;
-    margin: 0 auto;
-    font-size: 3.75rem;
-    color: white;
-    width: 58.214%;
-    text-align: center; 
-    font-weight: bold;
-}
-
-.slider-text2{
-    font-family:'Raleway', sans-serif;
-    padding-top: 3.75rem;
-    padding-bottom: 11.857%;
-    font-size: 1.25rem;
-    color: white;
-    text-align: center;
-    margin-bottom: 0;
-}
-
-.slider-text2 a{
-    text-decoration: underline;
-}
-
-
-
-.banner-poster{
-    background-color: #f3f4f5;
-    height: 1200px; 
-    max-width: 100%;
-    width: 100%;
-}
-
-
-.banner-poster{
-    background-color: #f3f4f5;
-    padding: 0;
-    position: relative;
-}
-
-.poster-title{
-    margin: 0;
-    color: #000;
-    font-family:'Raleway', sans-serif;
-    font-size: 3.75rem;
-    padding-top:7.357%;
-    padding-bottom: 10.214%;
-
-}
-
-.poster-title::after{
-    content: "";
-    position: absolute;
-    left: 100px;
-    top: 195px;
-    height: 3px;
-    width: 5.5%;
-    background-color: black;
-
-}
-
-
-
-.banner-colum1{
-    width: 46.428%;
-    float: left;
-    
-}
-
-.banner-colum2{
-    width: 52.857%;
-    float: right;
-
-}
-
-.poster-1{
-    background-image: url("../img/4.jpg");
-    background-size: cover;
-    width: 563px;
-    height: 754px;
-    position: relative; 
-}
-
-.poster-2{
-    background-image: url("../img/5.jpg");
-    background-size: cover;
-    width: 740px;
-    height: 366px;
-}
-
-.poster-3{
-    background-image: url("../img/6.jpg");
-    background-size: cover;
-    width: 325px;
-    height: 337px;
-    float: left;
-    margin-right: 11.714%;
-    margin-top: 7.857%; 
-}
-
-.poster-4{
-    background-image: url("../img/8.jpg");
-    background-size: cover;
-    width: 329px;
-    height: 338px;
-    float: left;
-    margin-top: 7.857%;
-}
-
-.poster-1-text{
-    font-size:  5rem;
-    text-align: center;
-    color: white;
-    padding-top: 157px;
-    margin-top: 0;
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
-}
-
-.poster-hover1{
-    font-size: 1.25rem;
-    color: white;
-    position: absolute;
-    bottom: 3px;
-    left: 38px;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 7px;
-    font-weight: bold;
-}
-
-.share{
-
-    position: absolute;
-    bottom: 19px;
-    right: 38px;
-
-}
-
-.poster-2-text{
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    font-size: 2.25rem;
-    margin: 0;
-    padding-left: 77px;
-    padding-top: 89px; 
-    font-weight: bold;
-}
-
-.poster-2-text2{
-    font-size:  1.25rem;
-    padding-left: 77px;
-
-}
-
-.poster-3-text{
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 1.875%;
-    text-align: center;
-    font-family: 'Squada One', cursive;
-}
-
-.poster-4-text{
-    padding-top: 130px;
-    font-size: 2.31rem;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-}
-
-span{
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.poster-button{
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: 143px;
-    margin-left: 600px;
-}
-
-.poster-button a{
-    text-decoration: none;
-    color: black;
-    padding: 9px 31px 9px 31px;
-    border: 3px solid black;
-    font-weight: bold;
-    letter-spacing: 0.125rem;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    
-}
-
-
-
-.title-footer{
-    font-weight: bold;
-    font-size: 1.25rem;
-    text-transform: uppercase;
-    padding-bottom: 50px;
-}
+  float: left;
+  width: 50%;
+  height: 651px; }
+
+.banner-columns {
+  position: relative; }
+
+.title-columns {
+  font-size: 3.75rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold; }
+
+.title-columns::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 72px;
+  height: 2px;
+  width: 4.5rem;
+  background-color: black; }
+
+.colums1 {
+  width: 50%;
+  float: left;
+  margin-bottom: 5.714%; }
+
+.colums2 {
+  width: 50%;
+  float: left;
+  margin-bottom: 5.714%; }
+
+.columns-content1 {
+  border-top: 1px solid #eae9e7;
+  border-bottom: 1px solid #eae9e7;
+  border-left: 1px solid #eae9e7;
+  padding: 7.285% 14.571% 8.428% 7.285%; }
+
+.columns-content1 h3 {
+  font-size: 1.875rem;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase; }
+
+.columns-content1 p {
+  font-size: 1.25rem;
+  font-family: 'Raleway', sans-serif; }
+
+.columns-content1 i {
+  font-size: 1.25rem;
+  font-family: 'Raleway', sans-serif; }
+
+.columns-content2 {
+  border-bottom: 1px solid #eae9e7;
+  border-left: 1px solid #eae9e7;
+  padding: 7.428% 14.285% 6.285% 7.285%; }
+
+.columns-content2 h3 {
+  font-size: 1.875rem;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase; }
+
+.columns-content2 p {
+  font-size: 1.25rem;
+  font-family: 'Raleway', sans-serif; }
+
+.columns-content2 i {
+  font-size: 1.25rem;
+  font-family: 'Raleway', sans-serif; }
+
+.columns-content3 {
+  padding: 7.428% 10% 5.071% 7.714%;
+  border-top: 1px solid #eae9e7;
+  border-bottom: 1px solid #eae9e7;
+  border-left: 1px solid #eae9e7;
+  border-right: 1px solid #eae9e7; }
+
+.columns-content3 h3 {
+  font-size: 1.875rem;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase; }
+
+.columns-content3 p {
+  font-size: 1.25rem;
+  font-family: 'Raleway', sans-serif; }
+
+.columns-content3 i {
+  font-size: 1.25rem;
+  font-family: 'Raleway', sans-serif; }
+
+.columns-content4 {
+  border-left: 1px solid #eae9e7;
+  border-bottom: 1px solid #eae9e7;
+  border-right: 1px solid #eae9e7;
+  padding: 7.428% 8.285% 9.5% 7.714%; }
+
+.columns-content4 h3 {
+  font-size: 1.875rem;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase; }
+
+.columns-content4 p {
+  font-size: 1.25rem;
+  font-family: 'Raleway', sans-serif; }
+
+.columns-content4 i {
+  font-size: 1.25rem;
+  font-family: 'Raleway', sans-serif; }
+
+.columns-button {
+  text-align: center;
+  margin-top: 4.285%;
+  margin-bottom: 10.214%; }
+
+.columns-button a {
+  text-decoration: none;
+  color: black;
+  padding: 9px 31px 9px 31px;
+  border: 3px solid black;
+  font-weight: bold;
+  letter-spacing: 0.125rem;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase; }
+
+.banner-slider {
+  background-image: url("../img/3.jpg");
+  background-size: cover; }
+
+.slider-text {
+  font-family: 'Raleway', sans-serif;
+  padding-top: 14.428%;
+  margin: 0 auto;
+  font-size: 3.75rem;
+  color: white;
+  width: 58.214%;
+  text-align: center;
+  font-weight: bold; }
+
+.slider-text2 {
+  font-family: 'Raleway', sans-serif;
+  padding-top: 3.75rem;
+  padding-bottom: 11.857%;
+  font-size: 1.25rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 0; }
+
+.slider-text2 a {
+  text-decoration: underline; }
+
+.banner-poster {
+  background-color: #f3f4f5;
+  height: 1200px;
+  max-width: 100%;
+  width: 100%; }
+
+.banner-poster {
+  background-color: #f3f4f5;
+  padding: 0;
+  position: relative; }
+
+.poster-title {
+  margin: 0;
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3.75rem;
+  padding-top: 7.357%;
+  padding-bottom: 10.214%; }
+
+.poster-title::after {
+  content: "";
+  position: absolute;
+  left: 100px;
+  top: 195px;
+  height: 3px;
+  width: 5.5%;
+  background-color: black; }
+
+.banner-colum1 {
+  width: 46.428%;
+  float: left; }
+
+.banner-colum2 {
+  width: 52.857%;
+  float: right; }
+
+.poster-1 {
+  background-image: url("../img/4.jpg");
+  background-size: cover;
+  width: 563px;
+  height: 754px;
+  position: relative; }
+
+.poster-2 {
+  background-image: url("../img/5.jpg");
+  background-size: cover;
+  width: 740px;
+  height: 366px; }
+
+.poster-3 {
+  background-image: url("../img/6.jpg");
+  background-size: cover;
+  width: 325px;
+  height: 337px;
+  float: left;
+  margin-right: 82px;
+  margin-top: 55px; }
+
+.poster-4 {
+  background-image: url("../img/8.jpg");
+  background-size: cover;
+  width: 329px;
+  height: 338px;
+  float: left;
+  margin-top: 55px; }
+
+.poster-1-text {
+  font-size: 80px;
+  text-align: center;
+  color: white;
+  padding-top: 157px;
+  margin-top: 0;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  line-height: 100px; }
+
+.poster-hover1 {
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  bottom: 3px;
+  left: 38px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 7px;
+  font-weight: bold; }
+
+.share {
+  position: absolute;
+  bottom: 19px;
+  right: 38px; }
+
+.poster-2-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 36px;
+  margin: 0;
+  padding-left: 77px;
+  padding-top: 89px;
+  font-weight: bold; }
+
+.poster-2-text2 {
+  font-size: 20px;
+  padding-left: 77px; }
+
+.poster-3-text {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Squada One', cursive; }
+
+.poster-4-text {
+  padding-top: 130px;
+  font-size: 37px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white; }
+
+span {
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.poster-button {
+  text-align: center;
+  margin-top: 60px; }
+
+.poster-button a {
+  text-decoration: none;
+  color: black;
+  padding: 9px 31px 9px 31px;
+  border: 3px solid black;
+  font-weight: bold;
+  letter-spacing: 0.125rem;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase; }
+
+.title-footer {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  padding-bottom: 50px; }
+
+.footer {
+  max-width: 100%;
+  width: 100%; }
+
+.footer ul {
+  padding-left: 0; }
 
 .footer li {
-    list-style: none; 
-    display: block;
+  list-style: none;
+  display: block; }
 
-}
+.footer li a {
+  text-decoration: none;
+  color: #000;
+  display: block; }
 
-.footer li a{
-    text-decoration: none;
-    color: #000;
-    display: block;
+.nav-browse {
+  float: left;
+  padding-top: 124px;
+  padding-bottom: 100px;
+  margin-right: 170px;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 25px;
+  font-weight: bold; }
 
-}
+.nav-shop {
+  float: left;
+  padding-top: 124px;
+  padding-bottom: 100px;
+  margin-right: 170px;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 25px;
+  font-weight: bold; }
 
+.nav-contact {
+  float: left;
+  padding-top: 124px;
+  padding-bottom: 100px;
+  margin-right: 190px;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 25px;
+  font-weight: bold; }
 
-.nav-browse{
-    float: left;
-    padding-top: 124px;
-    padding-bottom: 100px;
-    margin-right: 170px;
-}
+.form {
+  float: left;
+  padding-top: 124px;
+  padding-bottom: 100px;
+  margin-right: 0;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 25px;
+  font-weight: bold; }
 
-.nav-shop{
-    float: left;
-    padding-top: 124px;
-    padding-bottom: 100px;
-    margin-right: 170px;
-}
+.numero {
+  padding-bottom: 50px; }
 
-.nav-contact{
-    float: left;
-    padding-top: 124px;
-    padding-bottom: 100px;
-    margin-right: 180px;
-}
+.boton {
+  border: 3px solid #000000;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 18px;
+  background: transparent;
+  border-radius: 5px;
+  color: black; }
 
-.form{
-    float: left;
-    padding-top: 124px;
-    padding-bottom: 100px;
-    margin-right: 0;
-}
+.email {
+  width: 290px;
+  background-color: #f3f4f5;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  border: none;
+  color: #c9c7c2; }
 
-.numero{
-    padding-bottom: 50px
-}
+.icon-color {
+  background-color: #f3f4f5; }
 
+.copyright {
+  float: left;
+  padding-top: 30px;
+  padding-bottom: 35px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif; }
 
-
-.boton{
-    border: 3px solid #000000;
-    font-size: 1rem;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 14px 25px 14px 28px;
-    background: transparent
-}
-
-.email{
-
-    width: 250px;
-    background-color: #f3f4f5;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 20px;
-    border: none;
-    color: #c9c7c2;
-
-}
-
-
-
-.boton{
-    border: 2px solid #000000;
-    font-size: 1rem;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 8px 20px;
-    color: black;
-    border-radius: 5px; 
-}
-
-
-.icon-color{
-    background-color: #f3f4f5;
-}
-
-.copyright{
-    float: left;
-    padding-top: 30px;
-    padding-bottom: 35px; 
-    padding-bottom: 35px;
-    font-size: 1rem;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.social{
-    float: right;
-    padding-top: 30px;
-    padding-top: 32px;
-    padding-bottom: 35px;
-}
-
+.social {
+  float: right;
+  padding-top: 30px;
+  padding-top: 32px;
+  padding-bottom: 35px; }
 
 .social a {
-    float: left;
-}
+  float: left; }
 
-.social a + a{
-    padding-left: 33px;
-}
+.social a + a {
+  padding-left: 33px; }

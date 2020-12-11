@@ -1,0 +1,66 @@
+.banner-template{
+    padding-bottom: 2.142%;
+    max-width: 100%;
+    width: 100%;
+}
+
+.banner-template-title{
+    text-align: center;
+    position: relative;
+    
+}
+
+.subtitle{
+    font-size: 3.437rem;
+    font-family:'Raleway', sans-serif;
+    font-weight: 100;
+    color:#000;
+    line-height: 1.875%;
+    letter-spacing: 0.125rem;
+    
+}
+
+
+.banner-template-title h2{
+    font-size: 3.75rem;
+    font-family:'Raleway', sans-serif;
+    font-weight: 900;
+    color:#000;
+    line-height: 1.875rem;
+    letter-spacing: 0.125rem;
+    
+}
+
+.text{
+    font-size: 1.25rem;
+    font-family:'Raleway', sans-serif;
+    font-weight: bold;
+    color:#000;
+    margin-bottom: 5.714%;
+    
+}
+
+.text::after{
+
+    content: "";
+    position: absolute;
+    left: 668px;
+    top: 220px;
+    height: 0.142%;
+    width: 4.5%;
+    font-weight: bold;
+    background-color: black;
+    
+}
+                        
+.text-template{
+    margin-bottom: 3.214%;
+    
+}
+
+.banner-template-text{
+    text-align: center;
+    font-size: 1.25rem;
+    font-family:'Raleway', sans-serif;
+    color:#000;
+}
